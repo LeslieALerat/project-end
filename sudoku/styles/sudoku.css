@@ -1,0 +1,92 @@
+
+hr {
+    width: 500px;
+}
+#infopanel {
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /*background-color: yellow;*/
+    font-size: 1.5rem;
+}
+#errors {
+    
+    color: coral;
+}
+
+#time {
+    margin: 0 auto;
+    color: coral;
+}
+#win {
+    color: rgba(0,0,0,0);
+    /*background-color: yellow;*/
+    float: right;
+    transition: color 0.25s;
+}
+
+#board {
+    width: 412px;
+    height: 400px;
+
+    /*background-color: yellow;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 45px;
+    height: 45px;
+    padding:0;
+    margin: 0;
+    border: 1px solid lightgray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+.vertical-line {
+    border-right: 1px solid black;
+}

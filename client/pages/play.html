@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Sudoku Challenge</title>
+        <link rel="stylesheet" href="play.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/d6b065731f.js" crossorigin="anonymous"></script>
+<link href="sudoku/styles/sudoku.css" rel="stylesheet"/>
+<script src="sudoku/scripts/sudoku.js"></script>
+</head>
+        <body>
+            <section class="header">
+                <nav>
+                    <a href="404.html"><img src="pencil-37254_1280.png"></a>
+                    <div class="nav-links" id="navLinks"></div>
+                    <div class="nav-links">
+                        <i class="fa-regular fa-circle-xmark fa" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="play.html">PLAY</a></li>
+                            <li><a href="">SIGN UP</a></li>
+                            <li><a href="">HOW TO PLAY</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+                </nav>
+
+                <div class="card" style="width: 550px; text-align:center;">
+                    <div class="card-body">
+                        <h1 class="card-title">Sudoku</h1>
+                        <hr>
+                        <div id="infopanel">
+                            <div style="margin: 0 auto; width: 112.5px;"><span id="errors"></span></div>
+                            <div style="margin: 0 auto; width: 112.5px;"><span id="time">00:00:00</span></div>
+                            <div style="margin: 0 auto; width: 112.5px;"><span id="win">YOU WIN!</span></div>
+                        </div>
+      
+                        <!-- 9x9 board-->
+                        <div id="board"></div>
+                        <br>
+                        <div id="digits"></div>
+                    </div>
+                </div>
+      
+      
+      
+      <!--          <div class="container"></div>
+      <div class="info-section-left"></div>
+      <h1 itemprop="name" class="info-section-title"> Have Fun Playing some Free Sudoku!</h1>
+      <div class="info-section-text" itemprop="description">
+          <p>
+              Sudoku is not only for your local newspaper, it has expanded from paper to be accessible on many apps and websites worldwide. 
+              Your goal is simple. Fill out the 9 x 9 grid of numbers until each row, column and 3 x 3 secion contains a digit sequence from 1 to 9!
+          </p>
+      </div>
+      -->
+        
+
+
+            <!------Footer------->
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Pellentesque aliquet turpis nulla, eleifend
+                    faucibus est<br>sollicitundin ut. Maecenas ut venenatis ex, 
+                    et dapibus purus.</p>
+                    <div class="icons">
+                        <i class="fa-solid fa-poo-storm fa"></i>
+                        <i class="fa-solid fa-wand-sparkles fa"></i>
+                        <i class="fa-brands fa-old-republic fa"></i>
+                        <i class="fa-solid fa-dumbbell fa"></i>
+                    </div>
+                    <p>Made with <i class="fa-solid fa-spaghetti-monster-flying fa"></i>  My own 2 Hands</p>
+            </section>
+            
+            
+            
+        </body> 
+        </html>
